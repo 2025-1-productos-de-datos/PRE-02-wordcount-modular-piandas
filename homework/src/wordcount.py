@@ -10,7 +10,7 @@ from homework.src._internals.write_word_counts import write_word_counts
 def main():
 
     if len(sys.argv) != 3:
-        print("Usage: python3 -m homework <input_folder> <output_folder>")
+        print("Usage: python -m homework <input_folder> <output_folder>")
         return
 
     input_folder = sys.argv[1]
