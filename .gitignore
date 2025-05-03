@@ -1,7 +1,5 @@
 .DS_Store
-data/output/
-# Pero no ignores el archivo wordcount.tsv:
-!data/output/wordcount.tsv
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
