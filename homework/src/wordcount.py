@@ -11,7 +11,7 @@ def main():
 
     if len(sys.argv) != 3:
         print("Usage: python3 -m homework <input_folder> <output_folder>")
-        sys.exit(1)
+        return
 
     input_folder = sys.argv[1]
     output_folder = sys.argv[2]
